@@ -18,6 +18,9 @@
     <ClInclude Include="Vector2D.h">
       <Filter>Core</Filter>
     </ClInclude>
+    <ClInclude Include="Mathf.h">
+      <Filter>Core</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\source\repos\OOP3200-F2021-Lesson4-Taylor\OOP3200-F2021-Lesson3\main.cpp">
@@ -30,6 +33,9 @@
       <Filter>Core</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\source\repos\OOP3200-F2021-Lesson4-Taylor\OOP3200-F2021-Lesson3\Vector3D.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathf.cpp">
       <Filter>Core</Filter>
     </ClCompile>
   </ItemGroup>

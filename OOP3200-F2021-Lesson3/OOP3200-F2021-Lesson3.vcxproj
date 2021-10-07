@@ -141,6 +141,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\source\repos\OOP3200-F2021-Lesson4-Taylor\OOP3200-F2021-Lesson3\Vector3D.h" />
+    <ClInclude Include="Mathf.h" />
     <ClInclude Include="Transform.h" />
     <ClInclude Include="Vector2D.h" />
   </ItemGroup>
@@ -149,6 +150,7 @@
     <ClCompile Include="..\..\..\..\source\repos\OOP3200-F2021-Lesson4-Taylor\OOP3200-F2021-Lesson3\Transform.cpp" />
     <ClCompile Include="..\..\..\..\source\repos\OOP3200-F2021-Lesson4-Taylor\OOP3200-F2021-Lesson3\Vector2D.cpp" />
     <ClCompile Include="..\..\..\..\source\repos\OOP3200-F2021-Lesson4-Taylor\OOP3200-F2021-Lesson3\Vector3D.cpp" />
+    <ClCompile Include="Mathf.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\source\repos\OOP3200-F2021-Lesson4-Taylor\OOP3200-F2021-Lesson3\ClassDiagram.cd" />
