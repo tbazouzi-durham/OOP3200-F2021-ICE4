@@ -140,12 +140,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\source\repos\OOP3200-F2021-Lesson4-Taylor\OOP3200-F2021-Lesson3\Transform.h" />
-    <ClInclude Include="..\..\..\..\source\repos\OOP3200-F2021-Lesson4-Taylor\OOP3200-F2021-Lesson3\Vector2D.h" />
     <ClInclude Include="..\..\..\..\source\repos\OOP3200-F2021-Lesson4-Taylor\OOP3200-F2021-Lesson3\Vector3D.h" />
     <ClInclude Include="Transform.h" />
     <ClInclude Include="Vector2D.h" />
-    <ClInclude Include="Vector3D.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\source\repos\OOP3200-F2021-Lesson4-Taylor\OOP3200-F2021-Lesson3\main.cpp" />

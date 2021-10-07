@@ -15,16 +15,7 @@
     <ClInclude Include="Transform.h">
       <Filter>Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\source\repos\OOP3200-F2021-Lesson4-Taylor\OOP3200-F2021-Lesson3\Transform.h">
-      <Filter>Core</Filter>
-    </ClInclude>
     <ClInclude Include="Vector2D.h">
-      <Filter>Core</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\source\repos\OOP3200-F2021-Lesson4-Taylor\OOP3200-F2021-Lesson3\Vector2D.h">
-      <Filter>Core</Filter>
-    </ClInclude>
-    <ClInclude Include="Vector3D.h">
       <Filter>Core</Filter>
     </ClInclude>
   </ItemGroup>
