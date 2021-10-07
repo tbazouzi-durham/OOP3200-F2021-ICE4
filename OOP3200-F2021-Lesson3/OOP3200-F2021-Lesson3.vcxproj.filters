@@ -1,24 +1,50 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="Core">
+      <UniqueIdentifier>{41cf3db3-1130-4865-bb8a-ceaea64ce672}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Docs">
+      <UniqueIdentifier>{84ed1cc6-6f4c-4ed8-a2cf-4ef05e29cfb9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Vector2D.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\..\..\..\source\repos\OOP3200-F2021-Lesson4-Taylor\OOP3200-F2021-Lesson3\Vector3D.h">
+      <Filter>Core</Filter>
     </ClInclude>
     <ClInclude Include="Transform.h">
-      <Filter>Header Files</Filter>
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\source\repos\OOP3200-F2021-Lesson4-Taylor\OOP3200-F2021-Lesson3\Transform.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\source\repos\OOP3200-F2021-Lesson4-Taylor\OOP3200-F2021-Lesson3\Vector2D.h">
+      <Filter>Core</Filter>
     </ClInclude>
     <ClInclude Include="Vector3D.h">
-      <Filter>Header Files</Filter>
+      <Filter>Core</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\source\repos\OOP3200-F2021-Lesson4-Taylor\OOP3200-F2021-Lesson3\main.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\source\repos\OOP3200-F2021-Lesson4-Taylor\OOP3200-F2021-Lesson3\Transform.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\source\repos\OOP3200-F2021-Lesson4-Taylor\OOP3200-F2021-Lesson3\Vector2D.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\source\repos\OOP3200-F2021-Lesson4-Taylor\OOP3200-F2021-Lesson3\Vector3D.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\source\repos\OOP3200-F2021-Lesson4-Taylor\OOP3200-F2021-Lesson3\ClassDiagram.cd">
+      <Filter>Core</Filter>
+    </None>
   </ItemGroup>
 </Project>
