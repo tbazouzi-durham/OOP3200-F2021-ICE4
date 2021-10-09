@@ -7,19 +7,31 @@
     <Filter Include="Docs">
       <UniqueIdentifier>{84ed1cc6-6f4c-4ed8-a2cf-4ef05e29cfb9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{837819ec-ee2a-408e-93d2-d51a1fefab0b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\source\repos\OOP3200-F2021-Lesson4-Taylor\OOP3200-F2021-Lesson3\Vector3D.h">
-      <Filter>Core</Filter>
+    <ClInclude Include="Mathf.h">
+      <Filter>Header</Filter>
     </ClInclude>
     <ClInclude Include="Transform.h">
-      <Filter>Core</Filter>
+      <Filter>Header</Filter>
     </ClInclude>
     <ClInclude Include="Vector2D.h">
-      <Filter>Core</Filter>
+      <Filter>Header</Filter>
     </ClInclude>
-    <ClInclude Include="Mathf.h">
-      <Filter>Core</Filter>
+    <ClInclude Include="..\..\..\..\source\repos\OOP3200-F2021-Lesson4-Taylor\OOP3200-F2021-Lesson3\Vector3D.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayObject.h">
+      <Filter>Header</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -38,10 +50,24 @@
     <ClCompile Include="Mathf.cpp">
       <Filter>Core</Filter>
     </ClCompile>
+    <ClCompile Include="DisplayObject.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="README.txt">
+      <Filter>Docs</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\source\repos\OOP3200-F2021-Lesson4-Taylor\OOP3200-F2021-Lesson3\ClassDiagram.cd">
-      <Filter>Core</Filter>
+      <Filter>Docs</Filter>
     </None>
   </ItemGroup>
 </Project>
